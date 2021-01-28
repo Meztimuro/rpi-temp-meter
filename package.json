@@ -1,0 +1,31 @@
+{
+	"name": "tempMeter",
+	"version": "0.0.0",
+	"license": "MIT",
+	"bin": "cli.js",
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"build": "webpack --config webpack.config.js",
+		"release": "bash release.sh"
+	},
+	"dependencies": {
+		"execa": "^3.3.0",
+		"ink": "^2.5.0",
+		"react": "^16.11.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.7.2",
+		"@babel/preset-env": "^7.7.1",
+		"@babel/preset-react": "^7.7.0",
+		"@babel/register": "^7.7.0",
+		"babel-loader": "^8.0.6",
+		"nexe": "^3.3.2",
+		"rollup-plugin-babel": "^4.3.3",
+		"rollup-plugin-commonjs": "^10.1.0",
+		"rollup-plugin-node-resolve": "^5.2.0",
+		"webpack": "^4.41.2",
+		"webpack-cli": "^3.3.10"
+	}
+}
